@@ -1,0 +1,31 @@
+@charset "utf-8";
+body{
+    display: flex;
+    justify-content:center;
+}
+.container{
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: grey;
+}
+.input{
+    height: 30px;
+    width: 143px;
+    border-radius: 10px;
+    background-color: lightskyblue;
+    color: black;
+    font-size: 18px
+}
+button{
+    height: 30px;
+    width: 30px;
+    margin-top:10px ;
+    margin-left: 4;
+    border-radius: 10px;
+    background-color: darkorange;
+    font-weight: bold;
+    
+}

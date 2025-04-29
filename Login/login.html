@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <meta name="author" content="Ray santos">
+    <meta name="descripition" content="meu primeiro projeto de login">
+    <meta name="keywords" content="site, html, projeto login">
+    <style>
+        body{
+            background-color: darkolivegreen;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+        .container{
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+            /* ----------------- */
+            /* display: grid;
+            place-items: center; */
+            /* ------------ */
+            /* position: relative; */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);   
+        }
+        fieldset {
+            padding: 30px;
+        }
+        img{
+            width: 40px;
+            border-radius: 50px;
+        }
+        label{
+            display: flex;
+            justify-content: center;
+        }
+        input{
+            border-radius: 50px;
+            width: 250px;
+            height: 30px;
+        }
+        /* button{
+            /* display: flex; Ou display: inline-flex */
+          /* gap: 30px; Espaçamento entre os botões */
+        .botao1{
+            margin-left: 20px;
+            float: left
+        }
+        .botao2{
+            float: right;
+        }
+        a{
+            display: flex;
+            justify-content: center;
+        }
+       </style>
+</head>
+<body>
+    <div class="container">
+        <form class="formulario" action="cadastro.js">
+            <fieldset>
+                <legend>Login</legend>
+                <p>
+                    <label class="email" for="email">Email: </label>
+                    <input class="email" type="email" name="email" required placeholder="ex: email@mail.com" autofocus autocomplete="off"> 
+
+                    <label class="senha" for="senha">Senha: </label>
+                    <input class="senha" type="password" required placeholder="Digite sua senha">
+                </p>
+                <p>
+                    <button class="botao" type="submit">Enviar</button>
+                    <button class="botao" type="reset">Limpar</button>
+                    <a href="https://www.google.com/"> <img src="/WORKSPACE_VS_CODE/meu_site/src/imagens/logo_link.jpg" alt="logo do Google"></a>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
